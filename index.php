@@ -7,11 +7,13 @@
   <body>
 <p>
 <?php
-  $a = 0;
-  $b = 15;
-  while($a <= 20){
+/*Utilisation boucle for
+1 - définition de deux variable séparés par une virgule
+2 - définition de la condition $a <= 20
+3 - Incrémentation $a*/
+  for($a = 0, $b = 15;$a <= 20; $a ++){
+    /*Affichage des familles*/
     echo $a * $b . '<br />';
-    $a ++;
   }
  ?>
 </p>
